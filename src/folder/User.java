@@ -11,8 +11,13 @@ public class User {
     private int failedLoginAttempts;
     
     
-	public User(String string, String string2, String string3, String string4, int i) {
+	public User(String username, String password, String firstName, String lastName, int failedLoginAttempts) {
 		// TODO Auto-generated constructor stub
+		this.password = password;
+		this.username = username;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		
 	}
 	
 	

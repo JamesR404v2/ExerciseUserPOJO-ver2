@@ -8,11 +8,14 @@ public class MakePOJO {
 
 	public static void main(String[] args) {
 
+		String test = "test";
+		User KeesKaas = new User("KeesKaas", "GHAEHen", "Kees", "van der Meer", 4);
 		
-		User KeesKass = new User("KeesKaas", "GHAEHen", "Kees", "van der Meer", 4);
-		
-		System.out.println(KeesKaas.getPassword());
-// this results in the below error.
+//		String test2 = KeesKaas.toString();
+//		System.out.println(test);
+//		System.out.println(test2); 
+//		var pwd = KeesKaas.getPassword();
+//// this results in the below error.
 
 //		MakePOJO (1) [Java Application]	
 //				folder.MakePOJO at localhost:64247	
@@ -21,7 +24,7 @@ public class MakePOJO {
 //				C:\Appz\Amazon Corretto\jdk11.0.16_9\bin\javaw.exe (Nov 3, 2022, 2:23:54 PM) [pid: 26852]	
 
 		
-//		User.getPassword();
+		System.out.println(KeesKaas.getPassword());
 		
 		
 	}
